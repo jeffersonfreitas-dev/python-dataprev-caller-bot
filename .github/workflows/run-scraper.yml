@@ -2,7 +2,7 @@ name: Run DataPrev Scraper
 
 on:
   schedule:
-    - cron: '0 18 * * *'  # Daily at 18 AM UTC
+    - cron: '30 18 * * *'  # Daily at 18 AM UTC
   workflow_dispatch:      # Manual trigger
   push:
     branches: [ main ]    # Run on push for testing
